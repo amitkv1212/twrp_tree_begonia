@@ -99,7 +99,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 # TWRP Configuration
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 RECOVERY_SDCARD_ON_DATA := true
-TW_DEVICE_VERSION := kdragon03
+TW_DEVICE_VERSION := LecCmD
 TW_THEME := portrait_hdpi
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
@@ -123,12 +123,12 @@ TARGET_USES_LOGD := true
 # PBRP
 # PB_TORCH_PATH := /sys/class/leds/torch-light0
 # PB_TORCH_MAX_BRIGHTNESS := 4
-MAINTAINER := kdragon03
+MAINTAINER := LecCmD
 
 #SHRP_Variables
 SHRP_DEVICE_CODE := begonia
 SHRP_PATH := device/xiaomi/begonia
-SHRP_MAINTAINER := kdragon03
+SHRP_MAINTAINER := LecCmD
 SHRP_DARK := true
 SHRP_DEVICE_TYPE := A_Only
 SHRP_EXTERNAL := /external_sd
